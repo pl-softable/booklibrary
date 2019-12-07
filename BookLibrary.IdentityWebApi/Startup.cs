@@ -58,7 +58,7 @@ namespace BookLibrary.IdentityWebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "BookOnLoan Library - Identity",
+                    Title = "Book Library - Identity",
                     Version = "v1"
                 });
             });
@@ -77,7 +77,7 @@ namespace BookLibrary.IdentityWebApi
 
             app.UseSwagger();
 
-            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookOnLoan Library - Identity"); });
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book Library - Identity"); });
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

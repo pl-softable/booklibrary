@@ -90,7 +90,7 @@ namespace BookLibrary.LibraryWebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "BookOnLoan Library",
+                    Title = "Book Library",
                     Version = "v1"
                 });
             });
